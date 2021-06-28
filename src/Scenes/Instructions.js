@@ -2,8 +2,8 @@ import Phaser from 'phaser';
 import Button from '../Objects/Button';
 
 const line1 = " Use the 'SPACE' key in your keyboard or click ";
-const line2 = 'with left mouse to make the Alligator Boy jump.';
-const line3 = 'Alligator Boy is allowed to double jump and his';
+const line2 = 'with left mouse to make the Zombie jump.';
+const line3 = 'Zombie is allowed to double jump and his';
 const line4 = 'main goal is collect as much coins as possible';
 const line5 = 'without falling to the platform.';
 
