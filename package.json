@@ -24,7 +24,11 @@
   },
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack-dev-server --open --mode development",
+    "start": "es-dev-server --app-index index.html --node-resolve --watch",
+    "watch": "webpack --watch",
+    "test": "jest",
+    "test-watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
