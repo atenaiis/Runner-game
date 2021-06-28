@@ -1,11 +1,11 @@
 import leaderboard from '../leaderboard';
 
-const array = [{ score: 10, user: 'Atenais' },
-  { score: 10, user: 'Atenais' },
-  { score: 10, user: 'Atenais' },
-  { score: 10, user: 'Atenais' },
-  { score: 10, user: 'Atenais' },
-  { score: 10, user: 'Atenais' }];
+const array = [{ score: 6000, user: 'karmaester' },
+  { score: 6000, user: 'karmaester' },
+  { score: 6000, user: 'karmaester' },
+  { score: 6000, user: 'karmaester' },
+  { score: 6000, user: 'karmaester' },
+  { score: 6000, user: 'karmaester' }];
 
 leaderboard.getInfo = jest.fn().mockImplementationOnce(() => {
   const result = Promise.resolve(array);
@@ -19,7 +19,7 @@ leaderboard.addScore = jest.fn().mockImplementationOnce(() => {
 
 
 describe('Test add score response', () => {
-  const success = leaderboard.addScore('Atenais', 10);
+  const success = leaderboard.addScore('karmaester', 6000);
   test('Test if return an object', () => success.then(data => {
     expect(data.ok).toBeTruthy();
   }));
