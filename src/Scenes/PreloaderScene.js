@@ -98,9 +98,9 @@ export default class PreloaderScene extends Phaser.Scene {
     load.image('background', 'assets/background.png');
     load.image('platform', 'assets/platform.png');
     load.image('coin', 'assets/coin.png');
-    load.spritesheet('player', 'assets/player.png', {
-      frameWidth: 10,
-      frameHeight: 20,
+    load.spritesheet('player', 'assets/slide.png', {
+      frameWidth: 30,
+      frameHeight: 50,
     });
     load.image('keyboard', 'assets/keys.png');
   }
