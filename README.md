@@ -102,7 +102,7 @@ To get a local copy of this project running follow these simple steps.
 
 - If you have node.js installed and all the dependencies were installed successfully, you can run the following command to start the server where the project will run.
 
-> `yarn start`
+> `npm run watch`
 
 - Open the following path using your favorite browser.
 
