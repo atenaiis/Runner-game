@@ -21,10 +21,10 @@ describe('Test Model creation', () => {
 
 describe('Test if model properties are initialized with righ values', () => {
   it('Testing if that object have the right attributes', () => {
-    expect(newModel.soundOn).toBe(true);
+    expect(newModel.soundOn).toBe(false);
   });
   it('Testing if that object have the right attributes', () => {
-    expect(newModel.musicOn).toBe(true);
+    expect(newModel.musicOn).toBe(false);
   });
   it('Testing if that object have the right attributes', () => {
     expect(newModel.bgMusicPlaying).toBe(false);
